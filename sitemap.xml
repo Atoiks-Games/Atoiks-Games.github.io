@@ -1,20 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>http://atoiks-games.github.io/</loc>
+    <lastmod>2016-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
   <url>
     <loc>http://atoiks-games.github.io/index.html</loc>
     <lastmod>2016-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://atoiks-games.github.io/" />
   </url>
   <url>
     <loc>http://atoiks-games.github.io/screenshot.html</loc>
     <lastmod>2016-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/DOR/DOR1.png</image:loc>
+      <image:title>Ryan</image:title>
+      <image:caption>Ryan</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/DOR/DOR2.png</image:loc>
+      <image:title>Voidswalker</image:title>
+      <image:caption>Voidswalker</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/DOR/DOR3.png</image:loc>
+      <image:title>Car</image:title>
+      <image:caption>Car</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/DOR/DOR4.png</image:loc>
+      <image:title>Blip</image:title>
+      <image:caption>Blip</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/DOR/DOR5.png</image:loc>
+      <image:title>Swarm</image:title>
+      <image:caption>Swarm</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/DOR-nm/NM1.png</image:loc>
+      <image:title>Ryan</image:title>
+      <image:caption>Ryan</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/DOR-nm/NM2.png</image:loc>
+      <image:title>Slime blocks</image:title>
+      <image:caption>Slime blocks</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/DOR-nm/NM3.png</image:loc>
+      <image:title>Voidswalker</image:title>
+      <image:caption>Voidswalker</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/DOR-nm/NM4.png</image:loc>
+      <image:title>Anvil</image:title>
+      <image:caption>Anvil</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/DOR-nm/NM5.png</image:loc>
+      <image:title>Guardian</image:title>
+      <image:caption>Guardian</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/DOR-nm/NM6.png</image:loc>
+      <image:title>Blap</image:title>
+      <image:caption>Blap</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/JARG/JARG1.png</image:loc>
+      <image:title>Grinder</image:title>
+      <image:caption>Grinder</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/JARG/JARG2.png</image:loc>
+      <image:title>Smile</image:title>
+      <image:caption>Smile</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/JARG/JARG3.png</image:loc>
+      <image:title>Cave</image:title>
+      <image:caption>Cave</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/JARG/JARG4.png</image:loc>
+      <image:title>Arena</image:title>
+      <image:caption>Arena</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/JARG/JARG5.png</image:loc>
+      <image:title>Win</image:title>
+      <image:caption>Win</image:caption>
+    </image:image>
   </url>
 </urlset>
-<!--<guid value="2cd0229a-21cc-4e5b-ab5c-2bc19239fb1e" />-->
+<!--<guid value="16b04df1-60ac-4db6-aeb6-05f06df26d7a" />-->
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
