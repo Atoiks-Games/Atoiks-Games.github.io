@@ -99,6 +99,16 @@
       <image:title>Win</image:title>
       <image:caption>Win</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/BITB/Start.png</image:loc>
+      <image:title>Start</image:title>
+      <image:caption>Start</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://atoiks-games.github.io/images/BITB/InGame.png</image:loc>
+      <image:title>In Game</image:title>
+      <image:caption>In Game</image:caption>
+    </image:image>
   </url>
 </urlset>
 <!--<guid value="16b04df1-60ac-4db6-aeb6-05f06df26d7a" />-->
