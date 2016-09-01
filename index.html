@@ -201,15 +201,15 @@ function toggleVisibiltyOfElementById (id) {
 }
 
 function renderShareBar () {
-  if (window.innerWidth > 700) {
-    var options={ "publisher": "e835b57d-6656-495a-9bf4-951f97936636", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "reddit", "googleplus", "pinterest", "email", "sharethis"]}};
-    var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
-    toggleVisibiltyOfElementById('sharebar')
-  } else {
-    var options={ "publisher": "e835b57d-6656-495a-9bf4-951f97936636", "logo": { "visible": false, "url": "http://atoiks-games.github.io/", "img": "//sd.sharethis.com/disc/images/demo_logo.png", "height": 45}, "ad": { "visible": false, "openDelay": "5", "closeDelay": "0"}, "livestream": { "domain": "", "type": "sharethis"}, "ticker": { "visible": false, "domain": "", "title": "", "type": "sharethis"}, "facebook": { "visible": false, "profile": "sharethis"}, "fblike": { "visible": false, "url": ""}, "twitter": { "visible": false, "user": "sharethis"}, "twfollow": { "visible": false}, "custom": [{ "visible": false, "title": "Custom 1", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}, { "visible": false, "title": "Custom 2", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}, { "visible": false, "title": "Custom 3", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}], "chicklets": { "items": ["facebook", "twitter", "reddit", "googleplus", "pinterest", "email", "sharethis"]}};
-    var st_bar_widget = new sharethis.widgets.sharebar(options);
-    toggleVisibiltyOfElementById('sthoverbuttons')
-  }
+  if (window.innerWidth > 700) toggleVisibiltyOfElementById('sharebar')
+  else toggleVisibiltyOfElementById('sthoverbuttons')
+}
+
+{
+  var options={ "publisher": "e835b57d-6656-495a-9bf4-951f97936636", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "reddit", "googleplus", "pinterest", "email", "sharethis"]}};
+  var widget1 = new sharethis.widgets.hoverbuttons(options);
+  options={ "publisher": "e835b57d-6656-495a-9bf4-951f97936636", "logo": { "visible": false, "url": "http://atoiks-games.github.io/", "img": "//sd.sharethis.com/disc/images/demo_logo.png", "height": 45}, "ad": { "visible": false, "openDelay": "5", "closeDelay": "0"}, "livestream": { "domain": "", "type": "sharethis"}, "ticker": { "visible": false, "domain": "", "title": "", "type": "sharethis"}, "facebook": { "visible": false, "profile": "sharethis"}, "fblike": { "visible": false, "url": ""}, "twitter": { "visible": false, "user": "sharethis"}, "twfollow": { "visible": false}, "custom": [{ "visible": false, "title": "Custom 1", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}, { "visible": false, "title": "Custom 2", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}, { "visible": false, "title": "Custom 3", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}], "chicklets": { "items": ["facebook", "twitter", "reddit", "googleplus", "pinterest", "email", "sharethis"]}};
+  var widget2 = new sharethis.widgets.sharebar(options);
 }
 
 renderShareBar()
