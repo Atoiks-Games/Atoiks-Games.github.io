@@ -192,17 +192,14 @@ Download it <a href="https://github.com/Atoiks-Games/Snap-2.0/releases/">here</a
 
 <script type="text/javascript">stLight.options({publisher: "e835b57d-6656-495a-9bf4-951f97936636", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 <script>
-function toggleVisibiltyOfElementById (id) {
-  var elem = document.getElementById(id)
-  if (elem) {
-    if (elem.style.visibility === 'visible' || elem.style.visibility === '') elem.style.visibility = 'hidden'
-    else elem.style.visibility = 'visible'
-  }
-}
-
 function renderShareBar () {
-  if (window.innerWidth > 700) toggleVisibiltyOfElementById('sharebar')
-  else toggleVisibiltyOfElementById('sthoverbuttons')
+  if (window.innerWidth > 700) {
+    document.getElementById('sthoverbuttons').visibility = 'hidden'
+    document.getElementById('sharebar').visibility = 'visible'
+  } else {
+    document.getElementById('sthoverbuttons').visibility = 'visible'
+    document.getElementById('sharebar').visibility = 'hidden'
+  }
 }
 
 {
