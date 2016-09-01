@@ -211,14 +211,18 @@ function renderShareBar () {
   var widget2 = new sharethis.widgets.sharebar(options);
 }
 
-window.setTimeout(function () {
-  while (document.getElementById('sthoverbuttons') == null);
-  renderShareBar()
+var handle1 = window.setInterval(function () {
+  if (document.getElementById('sthoverbuttons')) {
+    clearInterval(handle1)
+    renderShareBar()
+  }
 }, 50)
 
-window.setTimeout(function () {
-  while (document.getElementById('sharebar') == null);
-  renderShareBar()
+var handle2 = window.setInterval(function () {
+  if (document.getElementById('sharebar')) {
+    clearInterval(handle2)
+    renderShareBar()
+  }
 }, 50)
 
 window.addEventListener('resize', renderShareBar)
