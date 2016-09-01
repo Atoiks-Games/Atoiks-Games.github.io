@@ -4,19 +4,19 @@
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>http://atoiks-games.github.io/</loc>
-    <lastmod>2016-03-31</lastmod>
+    <lastmod>2016-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://atoiks-games.github.io/index.html</loc>
-    <lastmod>2016-03-31</lastmod>
+    <lastmod>2016-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://atoiks-games.github.io/screenshot.html</loc>
-    <lastmod>2016-03-31</lastmod>
+    <lastmod>2016-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
