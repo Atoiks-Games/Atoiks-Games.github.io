@@ -211,6 +211,15 @@ function renderShareBar () {
   var widget2 = new sharethis.widgets.sharebar(options);
 }
 
-renderShareBar()
+window.setTimeout(function () {
+  while (document.getElementById('sthoverbuttons') == null);
+  renderShareBar()
+}, 50)
+
+window.setTimeout(function () {
+  while (document.getElementById('sharebar') == null);
+  renderShareBar()
+}, 50)
+
 window.addEventListener('resize', renderShareBar)
 </script>
