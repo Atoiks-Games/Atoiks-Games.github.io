@@ -196,11 +196,11 @@ function renderShareBar () {
   var hovbtns = document.getElementById('sthoverbuttons')
   var sharebar = document.getElementById('sharebar')
   if (window.innerWidth > 700) {
-    if (hovbtns) hovbtns.visibility = 'hidden'
-    if (sharebar) sharebar.visibility = 'visible'
+    if (hovbtns) hovbtns.style.visibility = 'visible'
+    if (sharebar) sharebar.style.visibility = 'hidden'
   } else {
-    if (hovbtns) hovbtns.visibility = 'visible'
-    if (sharebar) sharebar.visibility = 'hidden'
+    if (hovbtns) hovbtns.style.visibility = 'hidden'
+    if (sharebar) sharebar.style.visibility = 'visible'
   }
 }
 
