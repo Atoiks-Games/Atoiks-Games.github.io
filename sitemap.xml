@@ -1,115 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url>
-    <loc>http://atoiks-games.github.io/</loc>
-    <lastmod>2016-09-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://atoiks-games.github.io/index.html</loc>
-    <lastmod>2016-09-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://atoiks-games.github.io/screenshot.html</loc>
-    <lastmod>2016-09-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/DOR/DOR1.png</image:loc>
-      <image:title>Ryan</image:title>
-      <image:caption>Ryan</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/DOR/DOR2.png</image:loc>
-      <image:title>Voidswalker</image:title>
-      <image:caption>Voidswalker</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/DOR/DOR3.png</image:loc>
-      <image:title>Car</image:title>
-      <image:caption>Car</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/DOR/DOR4.png</image:loc>
-      <image:title>Blip</image:title>
-      <image:caption>Blip</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/DOR/DOR5.png</image:loc>
-      <image:title>Swarm</image:title>
-      <image:caption>Swarm</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/DOR-nm/NM1.png</image:loc>
-      <image:title>Ryan</image:title>
-      <image:caption>Ryan</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/DOR-nm/NM2.png</image:loc>
-      <image:title>Slime blocks</image:title>
-      <image:caption>Slime blocks</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/DOR-nm/NM3.png</image:loc>
-      <image:title>Voidswalker</image:title>
-      <image:caption>Voidswalker</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/DOR-nm/NM4.png</image:loc>
-      <image:title>Anvil</image:title>
-      <image:caption>Anvil</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/DOR-nm/NM5.png</image:loc>
-      <image:title>Guardian</image:title>
-      <image:caption>Guardian</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/DOR-nm/NM6.png</image:loc>
-      <image:title>Blap</image:title>
-      <image:caption>Blap</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/JARG/JARG1.png</image:loc>
-      <image:title>Grinder</image:title>
-      <image:caption>Grinder</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/JARG/JARG2.png</image:loc>
-      <image:title>Smile</image:title>
-      <image:caption>Smile</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/JARG/JARG3.png</image:loc>
-      <image:title>Cave</image:title>
-      <image:caption>Cave</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/JARG/JARG4.png</image:loc>
-      <image:title>Arena</image:title>
-      <image:caption>Arena</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/JARG/JARG5.png</image:loc>
-      <image:title>Win</image:title>
-      <image:caption>Win</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/BITB/Start.png</image:loc>
-      <image:title>Start</image:title>
-      <image:caption>Start</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://atoiks-games.github.io/images/BITB/InGame.png</image:loc>
-      <image:title>In Game</image:title>
-      <image:caption>In Game</image:caption>
-    </image:image>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://atoiks-games.github.io/</loc>
+  <lastmod>2018-06-09T13:22:04+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://atoiks-games.github.io/index.html</loc>
+  <lastmod>2018-06-09T13:22:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://atoiks-games.github.io/games.html</loc>
+  <lastmod>2018-06-09T13:22:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://atoiks-games.github.io/demos.html</loc>
+  <lastmod>2018-06-09T13:22:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://atoiks-games.github.io/other.html</loc>
+  <lastmod>2018-06-09T13:22:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
-<!--<guid value="16b04df1-60ac-4db6-aeb6-05f06df26d7a" />-->
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
