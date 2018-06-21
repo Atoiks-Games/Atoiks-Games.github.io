@@ -128,11 +128,11 @@ app.ticker.add(function (delta) {
   graphics.lineStyle(0)
 
   graphics.beginFill(0x000000)
-  graphics.drawCircle(eye0.x + 3 * Math.cos(pt.x - eye0.x), eye0.y + 3 * Math.sin(pt.y - eye1.y), 10)
+  graphics.drawCircle(eye0.x + 12 * Math.cos(pt.x - eye0.x), eye0.y + 12 * Math.sin(pt.y - eye1.y), 10)
   graphics.endFill()
 
   graphics.beginFill(0x000000)
-  graphics.drawCircle(eye1.x + 3 * Math.cos(pt.x - eye1.x), eye1.y + 3 * Math.sin(pt.y - eye1.y), 10)
+  graphics.drawCircle(eye1.x + 12 * Math.cos(pt.x - eye1.x), eye1.y + 12 * Math.sin(pt.y - eye1.y), 10)
   graphics.endFill()
 })
 
