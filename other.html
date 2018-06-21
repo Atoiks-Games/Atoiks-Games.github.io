@@ -103,8 +103,8 @@ var app = new PIXI.Application(600, 400, { backgroundColor: 0xffffff })
 PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST
 
 // Mouth
-var texture1 = PIXI.Sprite.fromImage('./images/other/mouth_1.png')
-var texture2 = PIXI.Sprite.fromImage('./images/other/mouth_2.png')
+var texture1 = PIXI.Texture.fromImage('./images/other/mouth_1.png')
+var texture2 = PIXI.Texture.fromImage('./images/other/mouth_2.png')
 var sprite = new PIXI.Sprite(texture1)
 sprite.anchor.set(0.5)
 sprite.x = app.screen.width / 2
