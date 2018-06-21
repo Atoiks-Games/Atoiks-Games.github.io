@@ -102,21 +102,37 @@ var app = new PIXI.Application(600, 400, { backgroundColor: 0xffffff })
 
 PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST
 
+// Eyes
+var texture0 = PIXI.Texture.fromImage('./images/other/eye.png')
+var eye0 = new PIXI.Sprite(texture0)
+var eye1 = new PIXI.Sprite(texture0)
+eye0.anchor.set(0.5)
+eye1.anchor.set(0.5)
+eye0.scale.set(0.3)
+eye1.scale.set(0.3)
+eye0.x = app.screen.width / 2 - 40
+eye1.x = app.screen.width / 2 + 40
+eye0.y = eye1.y = app.screen.height / 2 - 60
+
+app.stage.addChild(eye0)
+app.stage.addChild(eye1)
+
 // Mouth
 var texture1 = PIXI.Texture.fromImage('./images/other/mouth_1.png')
 var texture2 = PIXI.Texture.fromImage('./images/other/mouth_2.png')
-var sprite = new PIXI.Sprite(texture1)
-sprite.anchor.set(0.5)
-sprite.x = app.screen.width / 2
-sprite.y = app.screen.height / 2
+var mouth = new PIXI.Sprite(texture1)
+mouth.anchor.set(0.5, 0.2)
+mouth.scale.set(0.75)
+mouth.x = app.screen.width / 2
+mouth.y = app.screen.height / 2
 
-sprite.interactive = true
-sprite.buttonMode = true
-sprite.on('pointerdown', function () {
-  sprite.texture = sprite.texture === texture1 ? texture2 : texture1
+mouth.interactive = true
+mouth.buttonMode = true
+mouth.on('pointerdown', function () {
+  mouth.texture = mouth.texture === texture1 ? texture2 : texture1
 })
 
-app.stage.addChild(sprite)
+app.stage.addChild(mouth)
 
 document.getElementById('game').appendChild(app.view)
 </script>
