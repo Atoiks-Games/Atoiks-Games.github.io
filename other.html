@@ -15,6 +15,7 @@
     <script type="text/javascript">var switchTo5x=true;</script>
     <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
     <script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.7.1/pixi.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
@@ -52,6 +53,7 @@ That should solve the problem.</em>
 
 <hr>
       </section>
+      <div id="game"></div>
     </div>
 
 
@@ -94,4 +96,27 @@ var handle2 = window.setInterval(function () {
 }, 100)
 
 window.addEventListener('resize', renderShareBar)
+</script>
+<script>
+var app = new PIXI.Application(600, 400, { backgroundColor: 0xffffff })
+
+PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST
+
+// Mouth
+var texture1 = PIXI.Sprite.fromImage('./images/other/mouth_1.png')
+var texture2 = PIXI.Sprite.fromImage('./images/other/mouth_2.png')
+var sprite = new PIXI.Sprite(texture1)
+sprite.anchor.set(0.5)
+sprite.x = app.screen.width / 2
+sprite.y = app.screen.height / 2
+
+sprite.interactive = true
+sprite.buttonMode = true
+sprite.on('pointerdown', function () {
+  sprite.texture = sprite.texture === texture1 ? texture2 : texture1
+})
+
+app.stage.addChild(sprite)
+
+document.getElementById('game').appendChild(app.view)
 </script>
