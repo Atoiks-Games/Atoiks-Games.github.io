@@ -110,12 +110,31 @@ eye0.anchor.set(0.5)
 eye1.anchor.set(0.5)
 eye0.scale.set(0.3)
 eye1.scale.set(0.3)
-eye0.x = app.screen.width / 2 - 40
-eye1.x = app.screen.width / 2 + 40
+eye0.x = app.screen.width / 2 - 80
+eye1.x = app.screen.width / 2 + 80
 eye0.y = eye1.y = app.screen.height / 2 - 60
 
 app.stage.addChild(eye0)
 app.stage.addChild(eye1)
+
+// Pupils
+var graphics = new PIXI.Graphics()
+
+app.stage.addChild(graphics)
+app.ticker.add(function (delta) {
+  var pt = app.renderer.plugins.interaction.mouse.getLocalPosition(app.stage)
+
+  graphics.clear()
+  graphics.lineStyle(0)
+
+  graphics.beginFill(0x000000)
+  graphics.drawCircle(eye0.x + 3 * Math.cos(pt.x - eye0.x), eye0.y + 3 * Math.sin(pt.y - eye1.y), 10)
+  graphics.endFill()
+
+  graphics.beginFill(0x000000)
+  graphics.drawCircle(eye1.x + 3 * Math.cos(pt.x - eye1.x), eye1.y + 3 * Math.sin(pt.y - eye1.y), 10)
+  graphics.endFill()
+})
 
 // Mouth
 var texture1 = PIXI.Texture.fromImage('./images/other/mouth_1.png')
@@ -129,8 +148,15 @@ mouth.y = app.screen.height / 2
 mouth.interactive = true
 mouth.buttonMode = true
 mouth.on('pointerdown', function () {
-  mouth.texture = mouth.texture === texture1 ? texture2 : texture1
+  if (mouth.texture === texture1) {
+    mouth.texture = texture2
+    mouth.y += 30
+  } else {
+    mouth.texture = texture1
+    mouth.y -= 30
+  }
 })
+
 
 app.stage.addChild(mouth)
 
